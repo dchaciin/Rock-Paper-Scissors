@@ -1,0 +1,124 @@
+.intro {
+  color: #fff;
+  display: flex;
+  height: 30vh;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  transition: opacity 0.5s ease;
+  
+  }
+  .intro button{
+    font-family: fantasy;
+    font-size: 20px;
+    color: #142d4c;;
+    background-color: #9fd3c7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 150px;
+    border: none;
+    border-radius: 20%;
+   cursor: pointer;
+    
+  }
+
+  div.fadeOut {
+    opacity:0;
+    pointer-events: none;
+  }
+  
+  div.fadeIn {
+    opacity:1;
+    pointer-events: all;
+  }
+.btn {
+    background-color: #385170;
+    color: #fff;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: none;
+    margin: 1px;
+    font-size: 80px;
+}
+body{
+    background-color: #142d4c;
+}
+.btn:hover {
+    background-color:  #9fd3c7;
+    color: #fff;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+    transition: .35s;
+    transform: scale(1.1);
+}
+.match {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  transition: opacity 0.5s ease;
+}
+
+
+.score {
+  color:#fff;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  font-size: 20px;
+
+}
+.score p {
+  text-align: center;
+}
+
+h1 {
+  color:#fff;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+
+}
+
+.result {
+  color: #fff;
+  margin-top:35px ;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.outro {
+  color: #fff;
+  position: absolute;
+  display: flex;
+  left: 39.6%;
+  bottom: 37.3%;
+  height: 30vh;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  transition: opacity 0.5s ease;
+  
+  }
+  .outro button{
+    font-family: fantasy;
+    font-size: 20px;
+    color: #142d4c;;
+    background-color: #9fd3c7;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 150px;
+    border: none;
+    border-radius: 20%;
+   cursor: pointer;}
