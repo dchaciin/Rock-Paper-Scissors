@@ -1,3 +1,5 @@
+import "./style.css"
+
 //Intro game
 
 const game = ()=>{
