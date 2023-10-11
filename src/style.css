@@ -63,6 +63,7 @@ body{
   top: 40%;
   left: 25%;
   transition: opacity 0.5s ease;
+
 }
 
 
@@ -122,3 +123,8 @@ h1 {
     border: none;
     border-radius: 20%;
    cursor: pointer;}
+
+   .match > div {
+    display: flex;
+    gap: 30px;
+   }
